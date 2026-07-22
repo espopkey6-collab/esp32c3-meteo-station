@@ -1,0 +1,11 @@
+
+#ifndef WIFI_MANAGER_H
+#define WIFI_MANAGER_H
+
+#include <Arduino.h>
+
+void configureWiFi();
+void reconnectWiFi();
+bool isWiFiConnected();
+
+#endif // WIFI_MANAGER_H
